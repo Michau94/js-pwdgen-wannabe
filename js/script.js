@@ -37,7 +37,7 @@ var message = alert('Inserisci i tuoi dati per generare una Password Megagalatti
 
  
  //OUTPUT 
- var pswGen =  pswPlaceholder.innerHTML = firstName + lastName + favColor + 21; 
+ var pswGen =  pswPlaceholder.innerHTML = firstName + lastName + favColor + "21"; 
  console.log(pswGen);
 
  
