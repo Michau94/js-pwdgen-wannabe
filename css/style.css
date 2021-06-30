@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Nova Square', cursive;
+    color: white;
+    text-align: center;
 }
 
 /* UTILS */
@@ -19,7 +21,6 @@
     width: 100%;
     height: 100vh;
     background-color: black;
-    color: white;
     position: relative;
 }
 
@@ -31,10 +32,6 @@
 #password {
     color: red;
     font-size: 1.5rem;
-}
-
-#title, #paragraph {
-    text-align: center;
 }
 
 .img {
