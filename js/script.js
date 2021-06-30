@@ -7,6 +7,8 @@
 
 
 //  INPUT
+
+var message = alert('Inserisci i tuoi dati per generare una Password Megagalattica'); 
 // richiesta nome 
  var firstName = prompt('Come ti chiami?', 'Dart'); 
  console.log(firstName);
@@ -22,11 +24,11 @@
 
  //selezione elemento in cui generare psw 
 
- var pswPlaceholder = document.getElementById('paragraph');
+ var pswPlaceholder = document.getElementById('password');
 
  
  //OUTPUT 
- var pswGen =  pswPlaceholder.innerHTML = 'Your Galactic Password is: '+  firstName + lastName + favColor + 21; 
+ var pswGen =  pswPlaceholder.innerHTML = firstName + lastName + favColor + 21; 
  console.log(pswGen);
 
 
